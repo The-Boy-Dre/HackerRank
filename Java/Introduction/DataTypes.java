@@ -53,5 +53,19 @@ class DataTypes{
     }
 }
 
-
-
+/*
+  Enter the amount of test cases you would wish to try: 3
+  Enter a primitive digit to find it's appropriate data type: 123 
+  123 can be fitted in:
+  * byte
+  * short
+  * int
+  * long
+  Enter a primitive digit to find it's appropriate data type: 213445
+  213445 can be fitted in:
+  * int
+  * long
+  Enter a primitive digit to find it's appropriate data type: 1322145125552154
+  1322145125552154 can be fitted in:
+  * long
+*/
