@@ -24,7 +24,7 @@ class DataTypes{
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
 
-        for(int i=0;i<t;i++){ //Begining of for loop
+        for(int i=0;i<t;i++){ //Beginning of for loop
             System.out.print("Enter a primitive digit to find it's appropriate data type: ");
 
             try{

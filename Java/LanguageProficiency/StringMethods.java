@@ -29,3 +29,11 @@ public class StringMethods {
     }
 }
 
+/*
+hello
+world
+
+10
+No
+Hello World
+*/
