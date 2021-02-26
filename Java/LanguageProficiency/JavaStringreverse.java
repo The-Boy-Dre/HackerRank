@@ -10,14 +10,15 @@ public class JavaStringreverse{
 
     static boolean isPalindrome(String str){
 
-        int i = 0;                    // Pointers pointing to the beginning
-        int j = str.length() - 1;   // and the end of the string
-        while(i < j){
-            i++; // Increment first pointer and
-            j--; // decrement the other
+        int i = 0;                    // i is a Pointer pointing to the beginning.
+        int j = str.length() - 1;   // This starts the length of the string at the highest number then works it way down with the subtraction of one in a loop
+        while(i < j){               // when the while loop hit's the 0 index it will stop looping
+            i++; // Increments the variable i 
+            j--; // while decrementing the other at the same time
 
-            if(str.charAt(i) != str.charAt(j)) // Checking to see if there is a mismatch 
-               return false;
+            if(str.charAt(i) != str.charAt(j)){  /* i will increase until it reaches the max index size of the string, while j will decrease the exact same amount of time because it's working
+               return false;                        off variable i and that will put it at the first char index of the string to compare if it is not equal in reverse as it was when it was entered */
+            }                       
         }
 
         return true; // returns true only if the string goes through the while loop and a match is found
