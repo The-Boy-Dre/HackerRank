@@ -42,10 +42,10 @@ class DataTypes{
                           System.out.println("* long");
                           }
 
+            }catch(Exception e){
+             System.out.println(sc.next()+" can't be fitted anywhere.");
             }
-            catch(Exception e){
-              System.out.println(sc.next()+" can't be fitted anywhere.");
-            }
+             
             
         } //End of for loop
 

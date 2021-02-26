@@ -14,7 +14,7 @@ public class StringMethods {
         //Sums the length of A and B
         System.out.println(A.length()+B.length());
         //==================================================== part1
-        
+
         //Determines if A is alphabetically farther than B
         System.out.println(A.compareTo(B)>0?"Yes":"No"); //code to see if strings are alphabetically ordered
         //==================================================== part2
