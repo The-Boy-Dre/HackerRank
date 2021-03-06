@@ -16,8 +16,8 @@ public class JavaStringreverse{
             i++; // Increments the variable i 
             j--; // while decrementing the other at the same time
 
-            if(str.charAt(i) != str.charAt(j)){  /* i will increase until it reaches the max index size of the string, while j will decrease the exact same amount of time because it's working
-               return false;                        off variable i and that will put it at the first char index of the string to compare if it is not equal in reverse as it was when it was entered */
+            if(str.charAt(i) != str.charAt(j)){  // i will increase until it reaches the max index size of the string, while j will decrease the exact same amount of time because it's working
+               return false;                     // off variable i and that will put it at the first char index of the string to compare if it is not equal in reverse as it was when it was entered 
             }                       
         }
 
