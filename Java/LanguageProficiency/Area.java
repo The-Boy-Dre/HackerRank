@@ -26,13 +26,13 @@ public class Area {
     }
 
 }
-public static void main(String[] args){
-		if (canRun){
-			int area=B*H;
-			System.out.print(area);
-		}
-		
-	}
+    public static void main(String[] args){
+            if (canRun){
+                int area=B*H;
+                System.out.print(area);
+            }
+            
+        }
 
 }
 
